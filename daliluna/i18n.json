@@ -1,0 +1,15 @@
+{
+    "locales": ["en", "fr", "de", "ar" ,"af", "az", "bg", "bn", "bs", "ca", "cs", "da", "dsb", "el", "es",
+    "et", "eu", "fa", "fi", "gl", "he", "hi", "hr", "hsb", "hu", "hy", "id", "is", "ja", "ka",
+    "km", "ko", "iv", "mk", "ms", "nb", "ne", "nl", "pl", "ps", "pt", "pt-BR", "ro", "ru", "sk",
+    "sl", "sq", "sr", "sr-Cyrl", "sv", "th", "tk", "tr", "uk", "vi", "zh-CN", "zh-TW"],
+    "defaultLocale": "en",
+    "pages": {
+      "*": ["common","newp"],
+      "/contact": ["contact"],
+      "/classify/[id]":["newp"],
+      "/classify/[id]/posts/[id]": ["posts"],
+      "/Login":["login"],
+      "/Register":["register"]
+    }
+  }

@@ -1,0 +1,162 @@
+.categories-content  {
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    display: block;
+    margin: 20px;
+    background: #fff;
+    background-color: #a19ed4;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    -webkit-transition: ease all 0.5s;
+    transition: ease all 0.5s;
+  }
+  .category-section{
+height: 90vh;
+  }
+  .section-heading h2 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #2b294e;
+    margin: 0 0 15px;
+    display: flex;
+    align-items: center;
+}
+  .category-section .category-links {
+    border: 1px solid #f3f3f3;
+    border-radius: 10px;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 0px 25px 0;
+    width: 100%;
+  }
+  .category-links:hover:hover {
+    background: #2b294e;
+    color: #fff;
+    -webkit-transition: ease all 0.5s;
+    transition: ease all 0.5s;
+  }
+  .category-links .img:hover{
+    color: #f1f1f1;
+  }
+  .categories-content a:hover h6,
+  .categories-content a:hover span {
+    color: #fff;
+  }
+  .categories-content a:hover::before {
+    opacity: 0;
+  }
+  .categories-content a:before {
+   
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    opacity: 1;
+  }
+  .categories-content {
+    margin-bottom: 25px;
+  }
+  .categorieslist-section {
+    padding: 70px 0 45px;
+    background: #f9fafc;
+  }
+  .categorieslastsec.categories-content {
+    margin-bottom: 0px;
+  }
+  .categorieslist-section h6 {
+    font-weight: 700;
+    color: #0d233e;
+    margin: 20px 0 15px;
+    line-height: 20px;
+  }
+  .categorieslist-section span.ads {
+    margin: 0 0 10px;
+  }
+  .categorieslist-section span {
+    display: block;
+    color: #666;
+    font-size: 14px;
+  }
+  /* Styles for the overlay */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styles for the popup container */
+.popup {
+  background-color:#2b294e ;
+  padding: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 5px;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  position: relative;
+
+background-repeat: no-repeat; /* Prevents the image from repeating */
+background-position: bottom right;
+
+}
+/* CSS */
+.scroll-container::-webkit-scrollbar {
+  width: 5px; /* Set the width of the scrollbar */
+  margin: 20px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  margin-right: 100px; /* Set the color of the scrollbar thumb */
+}
+
+.scroll-container::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0.1); /* Set the color of the scrollbar track */
+}
+
+
+/* Styles for the close button */
+.close {
+  position: absolute;
+  top: 5px;
+  margin:10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #555;
+}
+
+.linkStyle {
+  text-decoration: none; /* Remove default underline */
+  color: #000; /* Set default color */
+  
+}
+.popup-content h5{
+  color: #fff;
+}
+.popup-content h2{
+  color: #b31313;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+.icon{
+  position: absolute;
+  bottom: 0px ;
+  right:0px;
+ 
+  color: "#fff";
+  margin: "20px";
+}

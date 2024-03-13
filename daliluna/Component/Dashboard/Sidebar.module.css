@@ -1,0 +1,17 @@
+.SideBar{
+    flex: 2;
+    background-color: #2b294e;
+    height: 80vh;
+    border-radius: 20px  0 0 20px ;
+}
+.SideCom{
+    display: inline-block;
+    justify-items: center;
+    padding: 10px;}
+
+.SideCom2{
+    display: flex;
+   padding: 10px;
+   color: aliceblue;
+
+}

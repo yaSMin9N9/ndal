@@ -1,0 +1,21 @@
+.left-label {
+    display: block;
+    float: left;
+    font-weight: bold;
+    color: #2b294e;
+    margin-right: 2px; /* Adjust spacing between label and input */
+    margin-top: 15px;
+  }
+  .right-label {
+    display: block;
+    float: right;
+    font-weight: bold;
+    color: #2b294e;
+    margin-right: 2px; /* Adjust spacing between label and input */
+    margin-top: 15px;
+  }
+  .input[type="checkbox"] {
+    width: 1em;
+    height: 1rem;
+    accent-color:  #b31411;;
+  }

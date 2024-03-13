@@ -1,0 +1,194 @@
+.card {
+    background: #fff;
+    padding: 25px;
+    box-shadow: 3px 5px 13px rgba(222, 226, 231, 0.44);
+    margin: 0 0 25px;
+    border: 0;
+  }
+  .radio {
+    background: none;
+    border: 2px solid #ca6262;
+    color: #000;
+    border-radius: 8px;
+  }
+  .messages-form input {
+    background: none;
+    border: 1px solid #e3e3e3;
+    border-radius: 8px;
+}
+
+.messages-form .col-form-label {
+    margin: 15px  0px 5px 0px ;
+    padding: 0;
+    font-weight: 700;
+    color: #666;
+
+}
+.form-check-input input[type='radio'] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #999;
+  border-radius: 50%;
+  outline: none;
+  box-shadow: 0 0 5px #999;
+  transition: box-shadow 0.3s ease;
+}
+.breadcrumb-barr {
+  background: #2b294e;
+  padding:  24px 0;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 200px;
+  margin-bottom: 50px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.form-check-input::after{
+border: 2px solid #2b294e;
+background-color: #2b294e;
+}
+
+.messages-form input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 20px; /* Adjust as needed */
+  height: 20px; /* Adjust as needed */
+  border: 2px solid #cacaca;
+  border-radius: 50%; /* Ensures a circular shape */
+  outline: none;
+  
+}
+
+/* Style the custom radio button when it's checked */
+.messages-form input[type="radio"]:checked {
+  background-color: #b31313; /* Change the color when checked */
+}
+/* Styling for the container */
+.bottom-line {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 5px; /* Adjust the space between text and the line */
+  font-size: 18px; /* Adjust font size */
+  font-weight: bold; /* Adjust font weight */
+  color: #333; /* Adjust text color */
+}
+
+/* Styling for the line */
+/* Styling for the container */
+.bottom-line {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  transition: transform 0.3s ease; /* Animation transition */
+}
+
+/* Styling for the line */
+.bottom-line::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #ff6b6b;
+  transition: width 0.3s ease; /* Optional transition effect */
+}
+
+
+
+
+
+/* CSS */
+.button-30 {
+  align-items: center;
+  appearance: none;
+  background-color: #b21312;
+  border-radius: 10px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  font-weight: bolder;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-30:focus {
+  box-shadow: #b21312 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #b31313 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-30:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+.custom-file-input{
+  color: #b21312;
+}
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.custom-file-input::before {
+  content: 'Select some files';
+  display: inline-block;
+  background: linear-gradient(top, #f9f9f9, #e3e3e3);
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  color:"#b21312";
+  font-size: 10pt;
+}
+.custom-file-input:hover::before {
+  border-color:#2b294e;
+}
+.custom-file-input:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+.file-upload{
+  color:"#b21312";
+  background: linear-gradient(top, #f9f9f9, #e3e3e3);
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  
+  font-size: 10pt;
+
+}

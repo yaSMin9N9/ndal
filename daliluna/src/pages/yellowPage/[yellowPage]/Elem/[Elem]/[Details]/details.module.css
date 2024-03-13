@@ -1,0 +1,21 @@
+.img-fluid {
+    width: 350px;
+        height: 300px;
+        margin: 10px;
+}
+.gallery-slider{
+    margin:20px;
+    margin-right:300px;
+}
+@media (max-width: 768px){
+
+    .img-fluid {
+        width: 500px;
+        height: 300px;
+        margin: 10px;
+    }
+    .gallery-slider{
+        margin:10px;
+       
+    }
+}

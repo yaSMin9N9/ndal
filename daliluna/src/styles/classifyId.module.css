@@ -1,0 +1,54 @@
+
+  .card p {
+    line-height: 25px;
+  }
+  .card .amenities .form-group {
+    display: flex;
+  }
+  .card .amenities .form-group input {
+    margin: 0 10px 0 0;
+  }
+  .form-group input::placeholder {
+    color: #b7b7b7;
+  }
+  .card .amenities .form-group input:last-child {
+    margin-right: 0;
+  }
+  .all{
+    display: flex;
+    margin-top: 120px;
+    justify-content: center;
+  }
+  .row{
+    margin-left: 30px;
+   
+  }
+  @media (max-width: 991px) {
+    .col-lg-12 {
+      display: block;
+      margin: 20px;
+    }
+    .ll{
+      margin: 20px;
+      margin-left: -120px;
+    }
+    .col-lg-10 {
+      width: 100%;
+    }
+    .sorting-div {
+      justify-content: center; /* Center elements horizontally */
+    }
+    .card{
+      margin-left: 35px;
+    margin-right: 70px;
+    }
+    .all{
+      display: block; /* or any other display value you want for this range */
+
+    justify-content: initial;
+    margin-left: 50px;
+    margin: 20px;
+    margin-top: 120px;
+    }
+    /* Adjust other styles for smaller screens */
+  }

@@ -1,0 +1,278 @@
+.banner-section h3 {
+    color: #fff;
+    background: #374b5c;
+    padding: 12px 35px;
+    border-radius: 50px;
+    font-size: 18px;
+    display: inline-block;
+  }
+  .banner-section {
+      background: #f3f3f3;
+      position: relative;
+     
+      height: auto;
+      overflow-y: hidden;
+     padding:"100px"
+    }
+    .banner-section p {
+      color: #374b5c;
+      margin-bottom: 30px;
+    }
+    .banner-section p.explore-text span {
+      color: #fff;
+      background: #374b5c;
+      padding: 12px 35px;
+      border-radius: 50px;
+      font-size: 18px;
+      display: inline-block;
+    }
+    .section-search {
+      position: relative;
+      padding: 140px 0;
+    }
+    .banner-section h1 {
+      font-weight: 800;
+      font-size: 50px;
+      color: #0d233e;
+      margin-bottom: 25px;
+    }
+    .bannerleftarrow {
+      position: absolute;
+      top: 110px;
+      left: -7px;
+    }
+    .banner-section h1 span {
+      color: #c10037;
+    }
+    .banner-circle img {
+      filter: invert(1) brightness(100);
+    }
+    .banner-circle {
+      position: absolute;
+      left: -181px;
+      top: 0;
+      width: 300px;
+      height: 300px;
+    }
+    .search-box
+      .select2-container--default
+      .select2-selection--single
+      .select2-selection__rendered {
+      line-height: 52px;
+      padding-left: 15px;
+      padding-right: 25px;
+      min-width: 227px;
+      color: #374b5c;
+    }
+    .search-box
+      .select2-container--default
+      .select2-selection--single
+      .select2-selection__rendered::placeholder {
+      color: #b7b7b7;
+    }
+    .filter-content .select2-selection__placeholder {
+      color: #8d8d8d;
+    }
+    .search-box label {
+      color: #c10037;
+      font-weight: 600;
+    }
+    .search-box .select2-container--default .select2-selection--single,
+    .filter-content .select2-container--default .select2-selection--single {
+      background-color: #fff;
+      border: 1px solid #e3e3e3;
+      border-radius: 8px;
+      height: 52px;
+      min-width: 285px;
+    }
+    .filter-content .select2-container--default .select2-selection--single {
+      min-width: auto;
+    }
+    .search-box
+      .select2-container--default
+      .select2-selection--single
+      .select2-selection__arrow,
+    .filter-content
+      .select2-container--default
+      .select2-selection--single
+      .select2-selection__arrow {
+      height: 47px;
+      right: 6px;
+    }
+    .select2-container .select2-dropdown {
+      border: 1px solid #e3e3e3;
+    }
+    .select2-results__option {
+      padding: 6px 15px;
+    }
+    .search-box
+      .select2-container--default
+      .select2-selection--single
+      .select2-selection__arrow
+      b,
+    .filter-content
+      .select2-container--default
+      .select2-selection--single
+      .select2-selection__arrow
+      b {
+      position: absolute;
+      top: 55%;
+      left: 50%;
+      border-color: #374b5c;
+      border-style: solid;
+      border-width: 0 2px 2px 0;
+      padding: 3px;
+      height: 0;
+      margin-left: -10px;
+      margin-top: -3px;
+      width: 0;
+      transform: rotate(45deg) translateY(-50%);
+      -webkit-transform: rotate(45deg) translateY(-50%);
+      -ms-transform: rotate(45deg) translateY(-50%);
+    }
+    .search-box .search-input {
+      margin: 0 15px 0 0;
+    }
+    .search-box .group-img input {
+      padding: 14px 9px 14px 35px;
+      border: 1px solid #e3e3e3;
+      border-radius: 10px;
+      min-width: 196px;
+    }
+    .search-box .group-img input::placeholder {
+      color: #8d8d8d;
+    }
+    .search-box .group-img i {
+      top: 18px;
+      color: #8d8d8d;
+    }
+    .arrow-img {
+      position: absolute;
+      top: 157px;
+      left: auto;
+      right: 120px;
+    }
+    .banner-imgs img {
+      max-width: 580px;
+    }
+    .category-section {
+      padding: 100px 0 75px;
+    }
+    .section-heading h2 {
+      font-weight: 700;
+      font-size: 36px;
+      color: #0d233e;
+      margin: 0 0 15px;
+      display: flex;
+      align-items: center;
+    }
+    .section-heading h2 span {
+      color: "#2b294e";
+      background: #b31313;
+      border-radius: 57%;
+      padding: 5px 2px;
+      font-size: 32px;
+    }
+    .section-heading h2 span {
+      color:"#2b294e";
+      background: #b31313;
+      height: 62px;
+      width: 62px;
+      display: flex;
+      align-items: center;
+      background-position: center center;
+      justify-content: center;
+    }
+    .section-heading h2 span.title-left {
+      margin-left: 10px;
+    }
+    .section-heading h2 span.title-right {
+      margin-right: 10px;
+    }
+    .btn-view {
+      background: #ffffff;
+      border: 1px solid #c10037;
+      border-radius: 6px;
+      padding: 6px 26px;
+      color: #c10037;
+      -webkit-transition: all 0.7s;
+      -moz-transition: all 0.7s;
+      -o-transition: all 0.7s;
+      transition: all 0.7s;
+    }
+    .btn-view:hover,
+    .btn-view:focus {
+      background: #c10037;
+      border: 1px solid #c10037;
+      color: #fff;
+      -webkit-transition: all 0.7s;
+      -moz-transition: all 0.7s;
+      -o-transition: all 0.7s;
+      transition: all 0.7s;
+    }
+    .category-section a h5 {
+      font-weight: 500;
+      color: #fff;
+      font-style: normal;
+      margin: 0 0 10px;
+      font-size: 16px;
+    }
+    .search-btn .btn-primary {
+      padding: 13px 28px;
+      border-radius: 10px;
+      display: block;
+      min-width: 143px;
+    }
+    .search-btn .btn-primary i {
+      margin: 0 5px 0 0;
+    }
+    .search-box
+      .select2-container--default.select2-container--open
+      .select2-selection--single
+      .select2-selection__arrow
+      b {
+      border-color: #b7b7b7;
+      border-width: 2px 0 0 2px;
+      margin-top: 3px;
+      padding: 3px;
+    }
+    .coll{
+     display:"flex";
+     align-items:'center';
+     margin-top:"100px";
+    
+    }
+    @media (max-width: 768px) {
+      .img {
+        visibility: hidden;
+      }
+      .banner-section{
+        overflow-x: hidden;
+      
+      }
+      .banner-section {
+       padding:"0px";
+       margin-top: -200px;
+       height: auto;
+      }
+      .pp{
+        visibility: hidden;
+      }
+      .hh{
+        visibility: hidden;
+        
+      }
+      .bb{    
+        margin-left: 40%;
+        margin-right: 40%;
+      }
+    }
+    
+    @media (max-width: 992px) {
+      .coll {
+        display: block; /* Change from flex to block on medium screens */
+        margin: 0 auto; /* Center the element */
+        max-width: 800px; /* Optionally, set a max-width */
+        /* Add any other styles you need for this container */
+      }
+    }

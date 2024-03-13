@@ -1,0 +1,12 @@
+@media (max-width: 768px) {
+    .im {
+      visibility: hidden;
+    }
+    
+    .col{
+      margin: 20px;
+    }
+    .cta-section{
+      height: 350px;
+    }
+  }

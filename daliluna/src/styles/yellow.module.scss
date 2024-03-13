@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;600&display=swap');
+
+$transition-time: 2.3s;
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* Display 6 cards by default */
+    gap: 20px;
+	background-color: #0b0f08;
+}
+
+.card{
+	position: relative;
+	height: 300px;
+	margin: 10px;
+	transition: ease all $transition-time;
+	perspective: 1200px;
+	
+	&:hover{
+		.cover{
+			transform: rotateX(0deg) rotateY(-30deg);
+			&:before{
+				transform: translateZ(30px);
+			}
+			&:after{
+				background-color:rgb(43, 41, 78);
+			}
+			h3{
+				transform: translateZ(100px);
+			}
+			.price{
+				transform: translateZ(60px);
+			}
+			a{
+				transform: translateZ(-60px) rotatey(-180deg);
+			}
+		}
+	}
+	.cover img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover; /* Ensure the image fills the container */
+	}
+	
+	.cover {
+		position: absolute;
+		border-radius: 10px;
+		height: 100%;
+		width: 100%;
+		transform-style: preserve-3d;
+		transition: ease all $transition-time;
+		background-size: cover;
+		background-position: center center;
+		background-repeat: no-repeat;
+	
+		&:before {
+			content: '';
+			position: absolute;
+			border: 5px solid rgba(255, 255, 255, .5);
+			box-shadow: 0 0 12px rgba(0, 0, 0, .3);
+			top: 5%; /* Adjust border offsets */
+			left: 5%; /* Adjust border offsets */
+			right: 5%; /* Adjust border offsets */
+			bottom: 5%; /* Adjust border offsets */
+			z-index: 2;
+			transition: ease all $transition-time;
+			transform-style: preserve-3d;
+			transform: translateZ(0px);
+			border-radius: 10px;
+		}
+	
+		&:after {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			z-index: 2;
+			transition: ease all 1.3s;
+			background: rgba(43, 41, 78, .5);
+			border-radius: 10px;
+		}
+	
+		h3 {
+			font-weight: 600;
+			position: absolute;
+			bottom: 5%; /* Adjust text position */
+			left: 5%; /* Adjust text position */
+			color: white;
+			transform-style: preserve-3d;
+			transition: ease all $transition-time;
+			z-index: 3;
+			font-size: 2vw; /* Adjust font size for responsiveness */
+			transform: translateZ(0px);
+		}
+	
+		.price {
+			font-weight: 200;
+			position: absolute;
+			top: 5%; /* Adjust text position */
+			right: 5%; /* Adjust text position */
+			color: white;
+			transform-style: preserve-3d;
+			transition: ease all $transition-time;
+			z-index: 4;
+			font-size: 2vw; /* Adjust font size for responsiveness */
+			transform: translateZ(0px);
+		}
+	}
+	
+	/* Media Queries for responsiveness */
+	@media screen and (max-width: 1200px) {
+		.cover {
+			h3, .price {
+				font-size: 3vw; /* Adjust font size for medium screens */
+			}
+		}
+	}
+	
+	@media screen and (max-width: 768px) {
+		.cover {
+			h3, .price {
+				font-size: 4vw; /* Adjust font size for small screens */
+			}
+		}
+	}
+	.card-back{
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		visibility: hidden;
+		border-radius: 10px;
+		background: rgb(43, 41, 78);
+		transform-style: preserve-3d;
+  	transition: ease all $transition-time;
+		transform: translateZ(-1px);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		&:hover{
+			
+			visibility: visible;
+		}
+		a{
+			transform-style: preserve-3d;
+			transition: ease transform $transition-time, ease background .5s;
+			transform: translateZ(-1px) rotatey(-180deg);
+			background: transparent;
+			border: 1px solid white;
+			font-weight: 200;
+			font-size: 1.3em;
+			color: white;
+			padding: 14px 32px;
+			outline: none;
+			text-decoration: none;
+			&:hover{
+				background-color: white;
+				color: #0b0f08;
+				visibility: visible;
+			}
+		}
+	}
+}
+@media screen and (max-width: 1200px) {
+    .card {
+        grid-template-columns: repeat(4, 1fr); /* Display 4 cards on medium screens */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        grid-template-columns: repeat(2, 1fr); /* Display 2 cards on small screens */
+    }
+}
